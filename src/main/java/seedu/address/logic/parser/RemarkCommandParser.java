@@ -12,6 +12,13 @@ import seedu.address.model.person.Remark;
 
 public class RemarkCommandParser implements Parser {
 
+    /**
+     * Parse args to a remark command.
+     *
+     * @param args Uer input.
+     * @return A remark command.
+     * @throws ParseException
+     */
     public RemarkCommand parse(String args) throws ParseException {
         requireNonNull(args);
         ArgumentMultimap argMultimap = ArgumentTokenizer.tokenize(args,
