@@ -25,8 +25,16 @@ public class InterviewContainsKeywordsPredicate implements Predicate<Person> {
     @Override
     public boolean test(Person person) {
         return keywords.stream()
-                .anyMatch(keyword -> StringUtil.containsWordIgnoreCase(
-                        person.getInterview().get().displayTime(), keyword));
+                .anyMatch(keyword -> {
+                    System.out.println(person.getName().toString());
+                    System.out.println(person.getInterview().toString());
+                    if (person.getInterview().isPresent()) {
+                        return StringUtil.containsWordIgnoreCase(
+                                person.getInterview().get().displayTime(), keyword);
+                    } else {
+                        return false;
+                    }
+                });
     }
 
 
