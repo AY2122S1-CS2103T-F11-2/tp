@@ -21,7 +21,7 @@ public class Interview {
     public static final String DISPLAY_FORMAT = "MMM dd yyyy , HH:mm"; //e.g. Sep 21 2022, 09:30
     public static final String EMPTY_TIME = "-";
     public static final String MESSAGE_CONSTRAINTS =
-            "Interview time should follow the format: [year-month-date, hour-minute]. "
+            "Interview time should follow the format: yyyy-MM-dd, HH:mm. "
                     + "E.g. i/2021-09-01, 8:00 or i/21-9-1,08:00";
 
     public final String parseTime;
