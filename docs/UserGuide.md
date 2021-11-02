@@ -23,9 +23,11 @@ descriptions of the usage of each component in RecruitIn under [Usages](#usages)
     + [Viewing help : `help`](#viewing-help--help)
     + [Adding an applicant: `add`](#adding-an-applicant-add)
       - [Prefix Input Specifications ***{Advanced}***:](#prefix-input-specifications-advanced)
+    + [Editing an applicant: `edit`](#editing-an-applicant--edit)
+      - [Prefix Input Specifications ***{Advanced}***:](#prefix-input-specifications-advanced-1)
     + [Listing all applicants : `list`](#listing-all-applicants--list)
     + [Finding an applicant : `find`](#finding-an-applicant--find)
-      - [Prefix Input Specifications ***{Advanced}***:](#prefix-input-specifications-advanced-1)
+      - [Prefix Input Specifications ***{Advanced}***:](#prefix-input-specifications-advanced-2)
     + [Deleting an applicant : `delete`](#deleting-an-applicant--delete)
     + [Showing search terms : `show`](#showing-search-terms--show)
     + [Marking an applicant : `mark`](#marking-an-applicant--mark)
@@ -212,7 +214,7 @@ a `.` unlike its preceding domain labels. (i.e. `John@u.sg` is valid)
     * For example:
         * NOTES inputs such as `This candidate is good!` and `@Applicant123 is suitab13 for th3 job!` are acceptable.
 
-### Editing an applicants : `edit`
+### Editing an applicant : `edit`
 
 Edits an applicant's data in RecruitIn.
 
