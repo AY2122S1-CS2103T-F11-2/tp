@@ -71,7 +71,8 @@ Scroll down to the bottom and click on `recruitIn.jar`.
 
     * **`delete`**`2` : Deletes the 2nd applicant shown in the list of all applicants, which would `Mary`.
 
-    * **`show`**`s/` : Displays all unique expected salaries in RecruitIn, which would be 1 result that is `3000`.
+    * **`show`**`s/` : Displays all unique expected salaries in RecruitIn, which would be 6 results that are 
+    `0`, `1300`,`2200`,`3500`,`4000` and `5700`.
 
     * **`mark`**`1` : Marks the 1st applicant shown in the list of all applicants as done, which would `John`.
 
