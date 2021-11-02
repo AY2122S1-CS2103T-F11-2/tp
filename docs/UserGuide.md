@@ -203,7 +203,7 @@ a `.` unlike its preceding domain labels. (i.e. `John@u.sg` is valid)
     * TAG inputs such as `friends` and `colleagues` are allowed.
     * TAG inputs such as `best friends`, `old colleagues` and `seni@r` are not allowed.
 * ##### INTERVIEW `i/`
-  * An INTERVIEW should follow the DateTime format `yyyy-MM-dd, H:mm`.
+  * An INTERVIEW should follow the DateTime format `yyyy-MM-dd, HH:mm`.
   * For example: 
     * INTERVIEW inputs such as `2021-10-22, 13:00` and `2022-01-30, 3:00` are acceptable.
     * INTERVIEW inputs such as `morning`, `2021.10.21` and `2021-10-22 13:00` are not acceptable. 
