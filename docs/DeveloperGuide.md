@@ -663,14 +663,14 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Glossary
 
-* **Mainstream OS**: Windows, Linux, Unix, OS-X
 * **Applicant**: Represents a person that is searching for a job
 * **Applied Role**: Represents the job a person is applying for
 * **Employment Type**: Represents the type of work contract, specifically Full time, Part time, Temporary & Internship
 * **Expected Salary**: Represents the minimum amount the applicant is willing to be paid for the job
 * **Level of Education**: Represents the highest/current level of education the applicant has, specifically Elementary, Middle School, High School, University, Bachelors, Masters, PhD
-* **Years of Experience**: Represents the number of years the applicant has previously worked in their applied role for
+* **Mainstream OS**: Windows, Linux, Unix, OS-X
 * **Search term**: Terms that can be searched for. e.g. Search terms for roles are all the roles that exist in the list, meaning these are all the roles that can be searched for.
+* **Years of Experience**: Represents the number of years the applicant has previously worked in their applied role for
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Appendix: Instructions for manual testing**
